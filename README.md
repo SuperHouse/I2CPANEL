@@ -1,5 +1,5 @@
-Freetronics LeoPad
-====================
+Freetronics LeoPad Mini
+========================
 Copyright 2018 Freetronics Pty Ltd  www.freetronics.com  
 
 A USB keypad with an ATMega32u4 controller, compatible with the Arduino
@@ -15,7 +15,7 @@ Features:
 
 You can view more details at:
 
-  http://www.freetronics.com.au/leopad
+  http://www.freetronics.com.au/leopadmini
 
 
 INSTALLATION
