@@ -1,21 +1,17 @@
-Freetronics LeoPad Mini
-========================
-Copyright 2018 Freetronics Pty Ltd  www.freetronics.com  
+SuperHouse I2C Panel
+====================
+Copyright 2019 SuperHouse Automation Pty Ltd  www.superhouse.tv  
 
-A USB keypad with an ATMega32u4 controller, compatible with the Arduino
-Leonardo.
+Navigation buttons and OLED screen for fitting in a rack mount case.
 
 Features:
 
- * ATmega 32u4 MCU
- * 20-key keypad (4x5 matrix)
- * HWB (hardware boot) button and solder jumper to allow disabling bootloader
- * 128x32 OLED module
- * USB-C connector
+ * I2C interface to buttons and spare I/O headers
+ * 128x32 I2C OLED screen
 
 You can view more details at:
 
-  http://www.freetronics.com.au/leopadmini
+  http://www.superhouse.tv/i2cpanel
 
 
 INSTALLATION
@@ -29,7 +25,7 @@ navigate to the project.
 
 CREDITS
 -------
-Jonathan Oxer jon@freetronics.com
+Jonathan Oxer jon@oxer.com.au
 
 
 DISTRIBUTION
