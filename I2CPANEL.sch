@@ -3032,6 +3032,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
  * LED connected to spare GPIO
  * Piezo connected to spare GPIO
  * Other I2C sensors such as temperature
+ * Illuminated tact buttons
 
 https://raspi.tv/2013/using-the-mcp23017-port-expander-with-wiringpi2-to-give-you-16-new-gpio-ports-part-3</text>
 <text x="10.16" y="93.98" size="2.54" layer="94" ratio="12">I2C I/O Expander</text>
