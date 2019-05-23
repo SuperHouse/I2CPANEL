@@ -7,7 +7,7 @@ Navigation buttons and OLED screen for fitting in a rack mount case.
 Features:
 
  * I2C interface to buttons and spare I/O headers
- * 128x32 I2C OLED screen
+ * 128x64 I2C OLED screen
 
 You can view more details at:
 
