@@ -24,18 +24,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -881,11 +881,11 @@ design rules under a new name.</description>
 <elements>
 <element name="C2" library="freetronics-master-v1.1" package="0603" value="1uF" x="87.5" y="25" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.0174" y="24.7206" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="88.643" y="23.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="85.984" y="26.357" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="R3" library="freetronics-jon" package="0603" value="4K7" x="91.5" y="25" smashed="yes" rot="R90">
 <attribute name="NAME" x="90.992" y="24.111" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="92.4652" y="23.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="90.984" y="26.5348" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="S1" library="freetronics-original" package="TACTILE-PTH" value="1" x="44" y="15" smashed="yes" rot="MR90">
 <attribute name="NAME" x="46.81" y="12.46" size="1.27" layer="26" ratio="10" rot="MR90"/>
@@ -907,31 +907,31 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="freetronics-jon" package="LED-0603" value="BLUE" x="89.5" y="25" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.9412" y="24.111" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="90.4652" y="23.984" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VALUE" x="87.984" y="22.5348" size="1.016" layer="27"/>
 </element>
 <element name="IC1" library="microchip" package="SO28W" value="MCP23017SO" x="60" y="12" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.064" y="3.491" size="1.778" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="64.064" y="23.557" size="1.778" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="55.936" y="13.443" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="R29" library="freetronics-master-v1" package="0603" value="10K" x="45" y="26" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.508" y="26.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="44.0348" y="27.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="45.984" y="27.0348" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="R30" library="freetronics-master-v1" package="0603" value="10K" x="43" y="26" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.508" y="26.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="42.0348" y="27.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="41.984" y="27.0348" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="R31" library="freetronics-master-v1" package="0603" value="10K" x="41" y="26" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.508" y="26.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="40.0348" y="27.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="37.984" y="27.0348" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="R28" library="freetronics-master-v1" package="0603" value="4K7" x="72" y="22" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.492" y="21.111" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="72.9652" y="20.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="72.984" y="22.0348" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="R27" library="freetronics-master-v1" package="0603" value="4K7" x="69" y="22" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.492" y="21.111" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="69.9652" y="20.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="65.984" y="22.0348" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="JP1" library="freetronics-original" package="1X10" value="M100.1" x="68.46" y="2" smashed="yes">
 <attribute name="NAME" x="67.1138" y="3.8288" size="1.27" layer="25" ratio="10"/>
